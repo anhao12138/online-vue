@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\online_re"
+		},
+		{
+			"path": "..\\.."
+		}
+	],
+	"settings": {
+		"editor.snippetSuggestions": "bottom",
+		"editor.suggest.snippetsPreventQuickSuggestions": false
+	}
+}
