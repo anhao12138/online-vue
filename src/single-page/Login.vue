@@ -3,7 +3,7 @@
       <el-form label-position="left" label-width="0px" class="demo-ruleForm login-container" :class="{animated: inputNull}">
         <div>
           <div class="login-logo">
-            <img src="@/assets/avatar.png" />
+            <img src="https://api.btstu.cn/sjtx/api.php" />
           </div>
         </div>
         <div class="spr-name">
