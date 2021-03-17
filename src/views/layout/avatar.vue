@@ -2,7 +2,7 @@
   <div class="navbar__avatar flex-middle">
       <el-dropdown trigger="click">
         <div class="navbar__avatar__user">
-          <img src="@/assets/avatar.png"/>
+          <img src="http://api.btstu.cn/sjtx/api.php"/>
           <div class="hidden-img">{{sysUserName}}</div>
         </div>
         <el-dropdown-menu slot="dropdown">
@@ -38,7 +38,9 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
+
  .navbar__avatar {
+    float: right;
    .message {
      position: relative;
      .messageNum {

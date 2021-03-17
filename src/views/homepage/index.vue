@@ -1,19 +1,46 @@
 <template>
-  <panel class="flex-midcenter full-height">
-    <div>酒入杯盏桃花开，似是故人闻香来。</div>
-  </panel>
+<div class="container">
+<el-container>
+  <el-header>
+    <button>为什么</button>
+  </el-header>
+
+  <el-main>
+
+  </el-main>
+
+    <el-footer>
+      <p>CopyRight © 招聘网</p>
+      <p>2020-2021</p>
+    </el-footer>
+</el-container>
+</div>
 </template>
 <script>
 
+
 export default {
   name: 'index',
-  data () {
+   components: {
+
+
+  },
+    data () {
     return {
+     
     }
   },
-  methods: {
-  },
-  mounted () {
-  }
+
 }
 </script>
+
+<style  scoped>
+
+
+ .el-header, .el-footer {
+    background-color: #B3C0D1;
+    color: #333;
+    text-align: center;
+    line-height: 60px;
+  }
+</style>
